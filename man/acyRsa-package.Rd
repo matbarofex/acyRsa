@@ -4,14 +4,15 @@
 \name{acyRsa-package}
 \alias{acyRsa}
 \alias{acyRsa-package}
-\title{acyRsa: Interface to ACyRSA's API BO}
+\title{acyRsa: Interface to ACyRSA's API}
 \description{
 Provides a convenient wrapper for consuming data from ACyRSA's BackOffice API.
 }
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https:github.com/augustohassel/acyRsa}
+  \item \url{https://github.com/augustohassel/acyRsa}
+  \item Report bugs at \url{https://github.com/augustohassel/acyRsa/issues}
 }
 
 }

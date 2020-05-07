@@ -1,21 +1,29 @@
 Package: acyRsa
 Type: Package
-Title: Interface to ACyRSA's API BO
-Version: 0.0.0.9004
+Title: Interface to ACyRSA's API
+Version: 0.0.0.9007
 Authors@R: c(person("Augusto", "Hassel", role = c("aut", "cre"), email = "augusto.hassel@gmail.com"))
 Description: Provides a convenient wrapper for consuming data from ACyRSA's BackOffice API.
 License: MIT + file LICENSE
+URL: https://github.com/augustohassel/acyRsa
+BugReports: https://github.com/augustohassel/acyRsa/issues
 Encoding: UTF-8
 LazyData: true
-URL: https:github.com/augustohassel/acyRsa
 RoxygenNote: 7.1.0
 Imports: 
     dplyr,
     httr,
     jsonlite,
-    methods
-Suggests: 
+    methods,
     glue,
     magrittr,
     purrr,
-    tidyr
+    tidyr,
+    tibble
+Collate: 
+    'acyRsa.R'
+    'attach.R'
+    's4_object.R'
+    'functions.R'
+    'functions_helpers.R'
+    'global.R'

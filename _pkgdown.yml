@@ -1,0 +1,16 @@
+destination: docs
+
+authors:
+  Augusto Hassel:
+    href: http://www.hasselpunk.com
+
+reference:
+- title: Authentication
+  desc:  Methods to obtain a valid token and/or generate a valid acyRsaConnection object.
+- contents:
+  - acyrsa_login
+- title: Post Trade
+- contents:
+  - acyrsa_cotizaciones
+  - acyrsa_margenes
+  - acyrsa_garantias_integradas
